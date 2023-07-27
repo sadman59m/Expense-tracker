@@ -1,7 +1,11 @@
-.expenses {
+/* .expenses {
   padding: 1rem;
   background-color: rgb(31, 31, 31);
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
+} */
+
+.expenses {
+  @apply bg-zinc-800 p-4 mx-auto my-8 w-[50rem] max-w-[95%];
 }
