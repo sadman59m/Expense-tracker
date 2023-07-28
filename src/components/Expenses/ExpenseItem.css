@@ -67,7 +67,7 @@
 }
 
 .expense-item h2 {
-  @apply text-[1rem] text-slate-50
+  @apply text-[1rem] text-slate-50 px-1
   flex-1  sm:text-[1.25rem];
 }
 
