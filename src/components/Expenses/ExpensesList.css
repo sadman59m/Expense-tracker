@@ -1,0 +1,7 @@
+.expense-list {
+  @apply list-none;
+}
+
+.expense-list__fallback {
+  @apply text-[#fff] font-bold text-center;
+}
