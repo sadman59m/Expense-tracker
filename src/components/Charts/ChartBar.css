@@ -1,0 +1,25 @@
+.chart-bar {
+  @apply h-[100%] w-[1rem] flex
+  flex-col items-center;
+}
+
+.chart-bar__inner {
+  @apply h-[100%] w-[100%] 
+  border-[1px] border-solid
+  border-[#444]
+  rounded-[12px] overflow-hidden
+  flex flex-col justify-end bg-[#ddd];
+}
+
+.chart-bar__fill {
+  @apply w-[100%] bg-purple-600;
+}
+
+.chart-bar__fill {
+  transition: all 0.3s ease-out;
+}
+
+.chart-bar__label {
+  @apply text-[#eee] font-bold my-1
+  text-[0.5rem];
+}

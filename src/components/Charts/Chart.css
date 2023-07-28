@@ -1,0 +1,6 @@
+.chart {
+  @apply h-[10rem]  my-2 bg-zinc-600
+  rounded-[6px] flex
+  justify-around items-center
+  p-2;
+}
