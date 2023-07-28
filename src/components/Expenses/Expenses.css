@@ -8,6 +8,6 @@
 
 .expenses {
   @apply bg-zinc-800 p-4 
-  mx-auto my-8 w-[50rem] 
+  mx-auto my-4 w-[50rem] 
   max-w-[95%];
 }

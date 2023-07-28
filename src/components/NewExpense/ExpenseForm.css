@@ -1,0 +1,17 @@
+.new-expense__controls {
+  @apply flex flex-wrap text-left
+  mb-[.5rem] gap-[1rem];
+}
+
+.new-expense__control label {
+  @apply block mb-[0.5rem] font-bold;
+}
+
+.new-expense__control input {
+  @apply text-inherit w-[20rem] max-w-[100%] rounded-[6px]
+  outline-purple-900 p-[0.5rem] ring-1 ring-[#ccc];
+}
+
+.new-expense__action {
+  @apply text-right;
+}

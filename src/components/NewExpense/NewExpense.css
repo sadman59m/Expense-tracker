@@ -1,3 +1,17 @@
 .new-expense {
-  @apply text-3xl text-slate-100 font-bold underline;
+  @apply bg-purple-300 p-4 
+  mx-auto my-4 w-[50rem] 
+  max-w-[95%] rounded-[12px];
+}
+
+.new-expense button {
+  @apply text-inherit px-6 py-3
+  ring-1 bg-[#40005d] text-slate-50
+  rounded-[12px] hover:bg-[#510674] hover:border-[#510674]
+  active:bg-[#510674] active:border-[#510674];
+}
+
+.new-expense button.alternative {
+  @apply text-[#220131] border-transparent bg-transparent
+  hover:bg-[#ddb3f8] active:bg-[#ddb3f8];
 }
