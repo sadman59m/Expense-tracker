@@ -4,6 +4,10 @@
   max-w-[95%] rounded-[12px] text-center;
 }
 
+.new-expense {
+  transition: all 0.5s ease;
+}
+
 .new-expense button {
   @apply text-inherit px-6 py-3 m-2
   ring-1 bg-[#40005d] text-slate-50
