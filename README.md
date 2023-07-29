@@ -1,5 +1,5 @@
 # Expense-tracker
-A react app that track the expenses and show them in chart on per month basis based on filtered year.
+A react app that tracks the expenses and shows them in the chart per month based on filtered year.
 
 # Screen-Shots:
 - Initial App
