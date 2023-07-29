@@ -1,0 +1,23 @@
+.setting-wheel {
+  @apply flex justify-center items-center h-[100vh];
+}
+
+.setting-wheel-btn {
+  @apply text-[#fff] p-4 text-[5rem] h-[7.5rem]
+  w-[7.5rem] bg-zinc-950 ring-1 rounded-full
+  rotate-0;
+}
+
+.setting-wheel-btn {
+  transition: all 0.5s ease-in-out;
+}
+
+.setting-wheel-btn__selected {
+  @apply text-[#fff] p-4 text-[5rem] h-[7.5rem]
+    w-[7.5rem] bg-zinc-950 ring-1 rounded-full
+    rotate-180;
+}
+
+.setting-wheel-btn__selected {
+  transition: all 0.5s ease-in-out;
+}
